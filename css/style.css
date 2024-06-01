@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Figtree", sans-serif;
+  font-family: "Figtree";
 }
 
 :root {
@@ -33,4 +33,23 @@ a:active {
 .attribution {
   font-size: 1.1rem;
   text-align: center;
+}
+
+.section-card {
+  max-width: 144rem;
+  height: 100vh;
+  background-color: var(--yellow);
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  background-color: var(--white);
+  max-width: 32rem;
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+}
+.card__img {
+  width: 100%;
+  border-radius: 1rem;
 }/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,13 @@
-$font: "Figtree", sans-serif;
+// $font: "Figtree", sans-serif;
+
+@font-face {
+  font-family: "Figtree";
+  font-weight: 500;
+  src: url(../../assets/fonts/Figtree-VariableFont_wght.ttf), format(ttf);
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-weight: 800;
+  src: url(../../assets/fonts/Figtree-VariableFont_wght.ttf), format(ttf);
+}
