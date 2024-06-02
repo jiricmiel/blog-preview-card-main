@@ -50,10 +50,13 @@ a:active {
 
 .card {
   background-color: var(--white);
-  max-width: 32rem;
-  padding: 1.6rem;
+  max-width: 38.4rem;
+  padding: 2.4rem;
   border-radius: 1.6rem;
   box-shadow: 8px 8px 0 var(--black);
+}
+.card__img-wrap {
+  height: 20rem;
 }
 .card__img {
   width: 100%;
