@@ -11,12 +11,72 @@
   max-width: 32rem;
   padding: 1.6rem;
   border-radius: 1.6rem;
-
-  &__header {
-  }
+  box-shadow: 8px 8px 0 var(--black);
 
   &__img {
     width: 100%;
     border-radius: 1rem;
+  }
+
+  &__content {
+    margin-top: 2.4rem;
+  }
+
+  &__tags {
+  }
+
+  &__tag {
+    display: inline-block;
+    background-color: var(--yellow);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 4px 12px;
+  }
+
+  &__time {
+    display: inline-block;
+    margin-top: 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  &__heading {
+    font-size: 2.4rem;
+    margin-top: 1.2rem;
+  }
+
+  &__heading-link {
+    transition: all 200ms ease;
+    &:link,
+    &:visited {
+      color: var(--black);
+    }
+
+    &:hover,
+    &:active {
+      color: var(--yellow);
+    }
+  }
+
+  &__text {
+    margin-top: 1.2rem;
+    font-size: 1.6rem;
+    color: var(--grey);
+  }
+
+  &__author-wrap {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+  }
+
+  &__author-img {
+    width: 3.2rem;
+  }
+
+  &__author-name {
+    font-size: 1.4rem;
+    font-weight: 800;
   }
 }
