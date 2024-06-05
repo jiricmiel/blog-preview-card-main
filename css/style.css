@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(../../assets/fonts/Figtree-VariableFont_wght.ttf), format("ttf");
+  src: url(../../assets/fonts/static/Figtree-SemiBold.ttf), format("ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url(../../assets/fonts/Figtree-VariableFont_wght.ttf), format("ttf");
+  src: url(../../assets/fonts/static/Figtree-ExtraBold.ttf), format("ttf");
+  font-style: normal;
+  font-weight: 800;
+}
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -41,10 +55,12 @@ a:active {
 }
 
 .section-card {
+  max-width: 144rem;
   height: 100vh;
   background-color: var(--yellow);
   display: grid;
   place-items: center;
+  margin: auto;
 }
 
 .card {
@@ -107,17 +123,4 @@ a:active {
 .card__author-name {
   font-size: 1.4rem;
   font-weight: 800;
-}
-
-@font-face {
-  font-family: "Figtree", sans-serif;
-  font-weight: 500;
-  src: url(../../assets/fonts/Figtree-VariableFont_wght.ttf), format("ttf");
-  src: url(../../assets/fonts/static/Figtree-SemiBold.ttf), format("ttf");
-}
-@font-face {
-  font-family: "Figtree", sans-serif;
-  font-weight: 800;
-  src: url(../../assets/fonts/Figtree-VariableFont_wght.ttf), format("ttf");
-  src: url(../../assets/fonts/static/Figtree-ExtraBold.ttf), format("ttf");
 }/*# sourceMappingURL=style.css.map */
