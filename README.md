@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/jiricmiel/blog-preview-card-main](https://your-solution-url.com)
-- Live Site URL: [https://blog-preview-card-main-orpin-pi.vercel.app/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/jiricmiel/blog-preview-card-main]
+- Live Site URL: [https://blog-preview-card-main-orpin-pi.vercel.app/]
 
 ## My process
 
@@ -50,8 +50,6 @@ Users should be able to:
 On this project I've tried to put semantic HTML to live.
 I learned how to work with variable and static fonts and also how to use @font-face.
 I deepened my knowledge on SASS partials and their propper implementation using @forward and @use.
-
-To see how you can add code snippets, see below:
 
 ```
 @font-face {
@@ -77,10 +75,9 @@ I'll probably stick with using SASS (.scss).
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@jiricmiel](https://www.frontendmentor.io/profile/jiricmiel)
 - LinkedIn - [@jiricmiel](https://www.linkedin.com/in/jiricmiel)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- [@VBasko](https://www.frontendmentor.io/profile/VBasko) - when I was prompted to review some code it was Viktoriia's one. It helped me to spot a few possible tweeks of my own code. It was very helpful.
