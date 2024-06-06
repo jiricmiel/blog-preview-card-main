@@ -76,15 +76,13 @@ a:active {
   border-radius: 1.6rem;
   box-shadow: 8px 8px 0 var(--black), inset 0 0 0 1px var(--black);
 }
-.card__img-wrap {
-  height: 20rem;
-}
 .card__img {
-  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
   border-radius: 1rem;
 }
 .card__content {
-  margin-top: 2.4rem;
+  margin-top: 2rem;
 }
 .card__tag {
   display: inline-block;

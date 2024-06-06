@@ -14,17 +14,14 @@
   border-radius: 1.6rem;
   box-shadow: 8px 8px 0 var(--black), inset 0 0 0 1px var(--black);
 
-  &__img-wrap {
-    height: 20rem;
-  }
-
   &__img {
-    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
     border-radius: 1rem;
   }
 
   &__content {
-    margin-top: 2.4rem;
+    margin-top: 2rem;
   }
 
   &__tag {
