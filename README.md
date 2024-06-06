@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![My solution for the Blog preview card component coding challenge](../images/screenshot.jpg)
+![My solution for the Blog preview card component coding challenge](images/screenshot.JPG)
 
 ### Links
 
@@ -53,7 +53,8 @@ I deepened my knowledge on SASS partials and their propper implementation using 
 
 To see how you can add code snippets, see below:
 
-```@font-face {
+```
+@font-face {
   font-family: "Figtree";
   font-style: normal;
   font-weight: 100 900;
