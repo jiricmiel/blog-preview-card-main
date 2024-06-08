@@ -76,7 +76,7 @@ a:active {
   border-radius: 1.6rem;
   box-shadow: 8px 8px 0 var(--black), inset 0 0 0 1px var(--black);
 }
-.card__img {
+.card__image {
   max-width: 100%;
   object-fit: cover;
   border-radius: 1rem;
@@ -124,7 +124,7 @@ a:active {
   gap: 1.2rem;
   align-items: center;
 }
-.card__author-img {
+.card__author-image {
   width: 3.2rem;
 }
 .card__author-name {
