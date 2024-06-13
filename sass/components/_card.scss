@@ -1,11 +1,4 @@
-.section-card {
-  max-width: 144rem;
-  height: 100vh;
-  background-color: var(--yellow);
-  display: grid;
-  place-items: center;
-  margin: auto;
-}
+@use "../util/mixins" as *;
 
 .card {
   background-color: var(--white);
@@ -13,6 +6,11 @@
   padding: 2.4rem 2.4rem 1.8rem 2.4rem;
   border-radius: 1.6rem;
   box-shadow: 8px 8px 0 var(--black), inset 0 0 0 1px var(--black);
+
+  @include respond(phone) {
+    // background-color: var(--blue);
+    max-width: 35rem;
+  }
 
   &__image {
     max-width: 100%;

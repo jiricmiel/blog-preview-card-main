@@ -1,0 +1,10 @@
+.container {
+  max-width: 144rem;
+  background-color: var(--yellow);
+  margin: auto;
+}
+.section-card {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}

@@ -37,7 +37,7 @@ a:active {
 }
 
 .attribution {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   display: flex;
   justify-content: center;
 }
@@ -60,21 +60,17 @@ a:active {
   font-weight: 800;
   src: url(../assets/fonts/static/Figtree-ExtraBold.ttf) format("truetype");
 }
-.section-card {
-  max-width: 144rem;
-  height: 100vh;
-  background-color: var(--yellow);
-  display: grid;
-  place-items: center;
-  margin: auto;
-}
-
 .card {
   background-color: var(--white);
   max-width: 38.4rem;
   padding: 2.4rem 2.4rem 1.8rem 2.4rem;
   border-radius: 1.6rem;
   box-shadow: 8px 8px 0 var(--black), inset 0 0 0 1px var(--black);
+}
+@media only screen and (max-width: 25em) {
+  .card {
+    max-width: 35rem;
+  }
 }
 .card__image {
   max-width: 100%;
@@ -130,4 +126,16 @@ a:active {
 .card__author-name {
   font-size: 1.4rem;
   font-weight: 800;
+}
+
+.container {
+  max-width: 144rem;
+  background-color: var(--yellow);
+  margin: auto;
+}
+
+.section-card {
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }/*# sourceMappingURL=style.css.map */
